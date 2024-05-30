@@ -1,0 +1,189 @@
+.logo {
+width: 40px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+span {
+font-size: 40px;
+margin-left: 5px;
+font-weight: bold;
+color: white;	
+}
+
+.main {
+	color: darkgreen;
+	font-family: Impact;
+	letter-spacing: 2px;
+	font-size: 150px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.subtitle {
+	font-family: Verdana;
+	font-size: 20px;
+	color: brown;
+	text-align: center;
+	font-style: weight-bold;
+	margin-bottom: 5px;
+}
+
+.slime {
+	margin-top: 20px;
+	width: 500px;
+	}
+
+.wrapper {
+	display: flex;
+	backround-color: gray;
+	background: url(img/fon.jpg);
+	min-height: 100vh;
+}
+
+.gla {
+	margin-left: 50px;
+	text-align: center;
+}
+
+.header{
+	background: url(img/wat.png);
+	padding-right: 20px;
+    border: 5px solid orange;
+}
+
+.main-pro {
+	color: darkgreen;
+	font-family: Impact;
+	letter-spacing: 2px;
+	font-size: 150px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 100px;
+}
+
+.sub-pro {
+	font-family: Verdana;
+	font-size: 20px;
+	color: brown;
+	text-align: center;
+	font-style: weight-bold;
+	margin-bottom: 20px;
+}
+
+.pro {
+	margin-left: 100px;
+	text-align: center;
+}
+
+.menu a {
+	text-decoration: none;
+	margin-top: 100px;
+	font-family: Impact;
+	color: lime;
+	font-size: 50px;
+	letter-spacing: 5px;
+	display: block;
+	transition: all 0.5s;
+}
+
+.menu a:hover {
+	transform: scale(1.15);
+	color: red;
+}
+.menu {
+	margin-bottom: 50px;
+	list-style: none;
+	
+}
+
+.proimg {
+	/* width: 900px; */
+}
+
+.proimg1{
+	width: 350px;
+	text-align: center;
+	border: 3px solid black;
+}
+
+.menu a.active {
+	color: yellow;
+}
+
+.rivimg {
+width: 300px;	
+margin-left: 35px;
+margin-top: 0px;
+border: 5px solid brown;
+}
+
+.menu a.active:hover {
+	color: purple;
+}
+
+.tovimg {
+	width: 100px;
+	
+}
+
+.subriv-wrap {
+display: flex;
+flex-wrap: wrap;
+}
+
+.rivtek {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+.tovimg {
+	width: 350px;
+}
+
+.tovtek {
+text-align: center;
+	font-weight: bold;
+	font-size: 65px;
+	color: white;	
+	margin-top: 0px;
+}
+
+.subtov-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 250px;
+	margin-left: 25px;
+}
+
+.subtov {
+	width: 350px;
+	transition: all 1s;
+	margin-bottom: -200px;
+}
+
+.subtov:hover {
+	transform: scale(1.15);
+}
+
+.subriv {
+	transition: all 1s;
+}
+
+.subriv:hover {
+	transform: scale(1.15);
+}
+
+.a:hover {
+	box-shadow: 0 0 10px black;
+	opacity:25%;
+	text-decoration: underline;
+}
+
+.wrapper-main {
+	height: 3000px;
+}
